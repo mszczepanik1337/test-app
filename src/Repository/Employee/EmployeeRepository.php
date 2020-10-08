@@ -47,6 +47,7 @@ class EmployeeRepository extends ServiceEntityRepository
         array $filters = []
     ): array
     {
+        var_dump($pagination);die();
         $qb = $this->createQueryBuilder('e')
             ->join('e.department', 'd')
             ->setFirstResult($pagination->getOffset())
