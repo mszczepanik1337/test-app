@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10616109-10bb-41d3-8e8b-c820860eb387" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AbstractController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Employee/EmployeeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Department/Department.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Employee/Employee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mapper/Department/DepartmentToArrayMapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mapper/Employee/EmployeeToArrayMapper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Employee/EmployeeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Employee/Filter/DepartmentFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Employee/Filter/FilterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Employee/Filter/FirstNameFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Employee/Filter/LastNameFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Employee/Filter/Service/EmployeeCollectionFilterService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Employee/Filter/Strategy/EmployeeCollectionFilterStrategy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Employee/Sort/Service/EmployeeCollectionSortService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Pagination/Pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Pagination/PaginationInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Sort/Sort.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Sort/SortInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/prod/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,14 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1028">
-                <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+              <first_editor relative-caret-position="430">
+                <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -140,15 +123,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Department/Department.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Employee/Employee.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-140">
@@ -193,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Repository/Employee/Filter/NameFilter.php" />
         <option value="$PROJECT_DIR$/src/Repository/Employee/Filter/LastNameFilter.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/.env" />
@@ -244,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/Repository/Employee/EmployeeRepository.php" />
         <option value="$PROJECT_DIR$/src/Controller/Employee/EmployeeController.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -475,6 +449,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Repository/Employee/Sort/Strategy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -522,12 +497,12 @@
       <workItem from="1601902136164" duration="4523000" />
       <workItem from="1601966256474" duration="15414000" />
       <workItem from="1602052398778" duration="16272000" />
-      <workItem from="1602083080781" duration="23140000" />
+      <workItem from="1602083080781" duration="23537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59349000" />
+    <option name="totallyTimeSpent" value="59746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1721" y="23" width="1720" height="1365" extended-state="0" />
@@ -546,7 +521,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3293556" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3293556" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3293556" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -688,13 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -929,10 +897,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1028">
-            <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+          <first_editor relative-caret-position="430">
+            <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
