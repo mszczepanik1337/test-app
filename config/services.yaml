@@ -27,5 +27,76 @@ services:
         resource: '../src/Controller/'
         tags: ['controller.service_arguments']
 
+    App\Repository\Employee\Filter\FirstNameFilter:
+        public: true
+
+    employee.collection.filter.firstName:
+        alias: App\Repository\Employee\Filter\FirstNameFilter
+        public: true
+
+    App\Repository\Employee\Filter\LastNameFilter:
+        public: true
+
+    employee.collection.filter.lastName:
+        alias: App\Repository\Employee\Filter\LastNameFilter
+        public: true
+
+    App\Repository\Employee\Filter\DepartmentFilter:
+        public: true
+
+    employee.collection.filter.department:
+        alias: App\Repository\Employee\Filter\DepartmentFilter
+        public: true
+
+    App\Repository\Employee\Sort\FirstNameSort:
+        public: true
+
+    employee.collection.sort.firstName:
+        alias: App\Repository\Employee\Sort\FirstNameSort
+        public: true
+
+    App\Repository\Employee\Sort\LastNameSort:
+        public: true
+
+    employee.collection.sort.lastName:
+        alias: App\Repository\Employee\Sort\LastNameSort
+        public: true
+
+    App\Repository\Employee\Sort\BaseSalarySort:
+        public: true
+
+    employee.collection.sort.baseSalary:
+        alias: App\Repository\Employee\Sort\BaseSalarySort
+        public: true
+
+    App\Repository\Employee\Sort\DepartmentSort:
+        public: true
+
+    employee.collection.sort.department:
+        alias: App\Repository\Employee\Sort\DepartmentSort
+        public: true
+
+    App\Repository\Employee\Sort\SupplementAmountSort:
+        public: true
+
+    employee.collection.sort.supplementAmount:
+        alias: App\Repository\Employee\Sort\SupplementAmountSort
+        public: true
+
+    App\Repository\Employee\Sort\SupplementTypeSort:
+        public: true
+
+    employee.collection.sort.supplementType:
+        alias: App\Repository\Employee\Sort\SupplementTypeSort
+        public: true
+
+    App\Repository\Employee\Sort\TotalSalarySort:
+        public: true
+
+    employee.collection.sort.totalSalary:
+        alias: App\Repository\Employee\Sort\TotalSalarySort
+        public: true
+
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
