@@ -20,7 +20,7 @@ class EmployeeCollectionFilterService
     private EmployeeCollectionFilterStrategy $employeeRepositoryFilterStrategy;
 
     /**
-     * EmployeeRepositoryFilterService constructor.
+     * EmployeeCollectionFilterService constructor.
      * @param EmployeeCollectionFilterStrategy $employeeRepositoryFilterStrategy
      */
     public function __construct(EmployeeCollectionFilterStrategy $employeeRepositoryFilterStrategy)

@@ -20,6 +20,6 @@ interface EmployeeRepositoryInterface
     public function getEmployeesCollection(
         PaginationInterface $pagination,
         SortInterface $sort,
-        array $filters = []
+        array $filters
     ): array;
 }

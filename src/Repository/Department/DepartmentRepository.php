@@ -10,7 +10,7 @@ use Doctrine\Persistence\ManagerRegistry;
 class DepartmentRepository extends ServiceEntityRepository
 {
     /**
-     * EmployeeRepository constructor.
+     * DepartmentRepository constructor.
      * @param ManagerRegistry $registry
      */
     public function __construct(ManagerRegistry $registry)

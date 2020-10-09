@@ -14,7 +14,7 @@ class EmployeeCollectionFilterStrategy
     private ContainerInterface $container;
 
     /**
-     * EmployeeRepositoryFilterStrategy constructor.
+     * EmployeeCollectionFilterStrategy constructor.
      * @param ContainerInterface $container
      */
     public function __construct(ContainerInterface $container)
