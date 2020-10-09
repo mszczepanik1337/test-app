@@ -38,7 +38,8 @@ class DepartmentController extends AbstractController
 
 
         return $this->json(
-            DepartmentToArrayMapper::map($department)
+            DepartmentToArrayMapper::map($department),
+            Response::HTTP_CREATED
         );
     }
 }

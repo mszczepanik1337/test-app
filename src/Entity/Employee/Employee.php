@@ -73,6 +73,8 @@ class Employee
     {
         $this->hiredAt = new DateTime();
         $this->supplementType = self::SUPPLEMENT_TYPE_PERCENTAGE;
+        $this->totalSalary = 0;
+        $this->supplementAmount = 0;
     }
 
     /**

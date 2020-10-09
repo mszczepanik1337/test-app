@@ -75,7 +75,8 @@ class EmployeeController extends AbstractController
         $entityManager->flush($employee);
 
         return $this->json(
-            EmployeeToArrayMapper::map($employee)
+            EmployeeToArrayMapper::map($employee),
+            Response::HTTP_CREATED
         );
     }
 
