@@ -5,6 +5,7 @@ namespace App\Controller\Department;
 
 use App\Controller\AbstractController;
 use App\Entity\Department\Department;
+use App\Mapper\Department\DepartmentToArrayMapper;
 use Doctrine\ORM\EntityManagerInterface;
 use FOS\RestBundle\Controller\Annotations as Rest;
 use Symfony\Component\HttpFoundation\Request;
@@ -36,6 +37,8 @@ class DepartmentController extends AbstractController
         $entityManager->flush($department);
 
 
-        return $this->json([]);
+        return $this->json(
+            DepartmentToArrayMapper::map($department)
+        );
     }
 }

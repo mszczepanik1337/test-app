@@ -74,8 +74,9 @@ class EmployeeController extends AbstractController
         $entityManager->persist($employee);
         $entityManager->flush($employee);
 
-
-        return $this->json([]);
+        return $this->json(
+            EmployeeToArrayMapper::map($employee)
+        );
     }
 
 
