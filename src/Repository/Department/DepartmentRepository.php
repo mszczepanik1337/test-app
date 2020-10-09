@@ -17,5 +17,4 @@ class DepartmentRepository extends ServiceEntityRepository
     {
         parent::__construct($registry, Department::class);
     }
-
 }

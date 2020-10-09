@@ -97,6 +97,10 @@ services:
         alias: App\Repository\Employee\Sort\TotalSalarySort
         public: true
 
+    App\Repository\Employee\EmployeeRepositoryInterface:
+        alias: App\Repository\Employee\EmployeeRepository
+        public: true
+
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones

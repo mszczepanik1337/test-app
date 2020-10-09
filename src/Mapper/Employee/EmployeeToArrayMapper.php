@@ -5,14 +5,14 @@ namespace App\Mapper\Employee;
 
 use App\Entity\Employee\Employee;
 use App\Mapper\Department\DepartmentToArrayMapper;
-use App\Utils\Date\DateHelper;
+use Exception;
 
 class EmployeeToArrayMapper
 {
     /**
      * @param Employee $employee
      * @return array
-     * @throws \Exception
+     * @throws Exception
      */
     public static function map(Employee $employee)
     {

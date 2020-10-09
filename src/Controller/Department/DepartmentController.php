@@ -16,7 +16,7 @@ class DepartmentController extends AbstractController
      * @Rest\Post("/departments")
      * @param Request $request
      * @param EntityManagerInterface $entityManager
-     * @return void
+     * @return Response
      */
     public function createDepartment(
         Request $request,

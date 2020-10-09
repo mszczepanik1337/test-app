@@ -12,7 +12,7 @@ use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 use Exception;
 
-class EmployeeRepository extends ServiceEntityRepository
+class EmployeeRepository extends ServiceEntityRepository implements EmployeeRepositoryInterface
 {
     private EmployeeCollectionFilterService $employeeRepositoryFilterService;
     private EmployeeCollectionSortService $employeeCollectionSortService;
@@ -47,7 +47,6 @@ class EmployeeRepository extends ServiceEntityRepository
         array $filters = []
     ): array
     {
-        var_dump($pagination);die();
         $qb = $this->createQueryBuilder('e')
             ->join('e.department', 'd')
             ->setFirstResult($pagination->getOffset())

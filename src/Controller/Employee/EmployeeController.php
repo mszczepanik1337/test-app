@@ -7,7 +7,7 @@ use App\Controller\AbstractController;
 use App\Entity\Employee\Employee;
 use App\Mapper\Employee\EmployeeToArrayMapper;
 use App\Repository\Department\DepartmentRepository;
-use App\Repository\Employee\EmployeeRepository;
+use App\Repository\Employee\EmployeeRepositoryInterface;
 use Doctrine\ORM\EntityManagerInterface;
 use Exception;
 use FOS\RestBundle\Controller\Annotations as Rest;
@@ -19,7 +19,7 @@ class EmployeeController extends AbstractController
 {
     /**
      * @Rest\Get("/employees")
-     * @param EmployeeRepository $employeeRepository
+     * @param EmployeeRepositoryInterface $employeeRepository
      * @return Response
      * @throws Exception
      * @Annotations\QueryParam(name="offset", requirements="\d+", default=0, strict=true)
@@ -28,7 +28,7 @@ class EmployeeController extends AbstractController
      * @Annotations\QueryParam(name="order", requirements="(asc|desc)", nullable=true, strict=true)
      * @Annotations\QueryParam(map=true, name="filters", nullable=true)
      */
-    public function getEmployeesCollection(EmployeeRepository $employeeRepository): Response
+    public function getEmployeesCollection(EmployeeRepositoryInterface $employeeRepository): Response
     {
         try {
             $employees = $employeeRepository->getEmployeesCollection(
@@ -52,8 +52,6 @@ class EmployeeController extends AbstractController
      * @param EntityManagerInterface $entityManager
      * @param DepartmentRepository $repository
      * @return Response
-     * @throws \Doctrine\ORM\ORMException
-     * @throws \Doctrine\ORM\OptimisticLockException
      * @throws Exception
      */
     public function createEmployee(

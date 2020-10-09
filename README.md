@@ -17,7 +17,7 @@ php bin/console doctrine:migrations:migrate
 uruchomienie aplikacji
 
 ```php
-php bin/console symfony server:start
+symfony server:start
 ```
 
 dodanie pracownika
@@ -49,6 +49,7 @@ pobranie raportu
 ```javascript
 /employees GET
 
+paginacja: offset, limit
 filtry : firstName, lastName, department
 sort: firstName, lastName, department, baseSalary, totalSalary, supplementAmount, supplementType
 
